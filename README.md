@@ -213,9 +213,9 @@ Dataform is used to transform the staging layer into an analytical dimensional m
 
 ### Star Schema
 
-    dim_product
-         │
-         │
+                       dim_product
+                            │
+                            │
     dim_customer ───── fact_orders ───── dim_location
                             │
                             │
