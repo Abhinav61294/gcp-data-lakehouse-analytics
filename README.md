@@ -523,7 +523,6 @@ Explicit BigQuery table references were therefore used for staging sources, whil
 
     gcp-data-lakehouse-analytics/
     │
-    ├── airflow/
     ├── config/
     ├── data/
     ├── data_quality/
@@ -536,9 +535,6 @@ Explicit BigQuery table references were therefore used for staging sources, whil
     │
     ├── .gitignore
     └── README.md
-
-> Note: The `airflow/` directory is retained as part of the project structure, but Airflow/Composer orchestration is not part of the implemented Project 3 pipeline.
-
 ---
 
 ## End-to-End Flow
